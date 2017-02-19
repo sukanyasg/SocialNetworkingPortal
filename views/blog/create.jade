@@ -1,0 +1,15 @@
+extends ../layout
+
+script(src="http://code.jquery.com/jquery-2.1.0.js") 
+script(src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js")
+script(src="/javascripts/client.js")
+link(src="/stylesheets/style.css")
+
+block content
+  
+  h1 Post your status update!
+  p Enter your status message in the textbox below and click on the 'post' button to save your status update!
+  form(name="form1" action= " ", method="POST")
+   label=title
+   input(type=text, name="title", id="titleid") 
+   input(type='button',value='Post', id="post")

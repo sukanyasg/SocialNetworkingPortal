@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  background: #6666FF;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+	font: Verdana;
+}
+
+h2 {
+	color: #000099;
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+	color: blue;
+}
+
+h4 {
+	text-align: left;
+	color: blue;
+	padding-left: 420px;
+
+
+}
+
