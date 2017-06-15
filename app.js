@@ -9,7 +9,7 @@ var index = require('./routes/index');
 var blog = require('./routes/blog');
 var a = 'b';
 var app = express();
-
+var lol = 'lol';
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
